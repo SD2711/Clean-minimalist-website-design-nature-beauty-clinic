@@ -1,234 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Sculpted Beauty Room</title>
-    <meta
-      name="description"
-      content="Boutique beauty studio offering sculpting facials, lip treatments, and body contouring in a calm, elegant setting."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <script defer src="script.js"></script>
-  </head>
-  <body>
-    <div class="page-shell">
-      <div class="ambient ambient-left"></div>
-      <div class="ambient ambient-right"></div>
 
-      <div class="site-frame">
-        <header class="site-header" id="home">
-          <nav class="nav" aria-label="Primary">
-            <button
-              class="menu-toggle"
-              type="button"
-              aria-expanded="false"
-              aria-controls="mobile-menu"
-            >
-              Menu
-            </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Sculpted Beauty Room</title>
+  <meta name="description"
+    content="Boutique beauty studio offering sculpting facials, lip treatments, and body contouring in a calm, elegant setting." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
 
-            <div class="nav-group nav-group-left">
-              <a href="#home">Home</a>
-              <a href="#about">About</a>
-            </div>
+<body>
+  <div class="page-shell">
+    <div class="ambient ambient-left"></div>
+    <div class="ambient ambient-right"></div>
 
-            <a class="brand" href="#home" aria-label="The Sculpted Beauty Room">
-              <span class="brand-title">The Sculpted</span>
-              <span class="brand-subtitle">Beauty Room</span>
-            </a>
+    <div class="site-frame">
+      <header class="site-header" id="home">
+        <nav class="nav" aria-label="Primary">
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+            Menu
+          </button>
 
-            <div class="nav-group nav-group-right">
-              <a href="#services">Services</a>
-              <a href="#contact">Contact</a>
-            </div>
-          </nav>
+          <div class="nav-group nav-group-left">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+          </div>
 
-          <div class="mobile-menu" id="mobile-menu">
+          <a class="brand" href="#home" aria-label="The Sculpted Beauty Room">
+            <span class="brand-title">The Sculpted</span>
+            <span class="brand-subtitle">Beauty Room</span>
+          </a>
+
+          <div class="nav-group nav-group-right">
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+
+        <div class="mobile-menu" id="mobile-menu">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+          <a class="button button-dark" href="#contact">Book Consultation</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero section-sage">
+          <div class="hero-copy">
+            <p class="eyebrow">Welcome to Claire's world of beauty</p>
+            <h1>A sanctuary of the finest treatments</h1>
+            <p class="lede">
+              Step into a room of beauty where every treatment is tailored
+              with calm precision, modern technique, and a deeply personal
+              touch.
+            </p>
+            <a class="button" href="#services">Our Services</a>
+          </div>
+
+          <div class="hero-media">
+            <img src="img/Skincare expert in a modern spa setting.png"
+              alt="Beauty studio owner smiling in a calm treatment room" />
+          </div>
+        </section>
+
+        <section class="services-intro section-light" id="services">
+          <p class="eyebrow eyebrow-center">Signature menu</p>
+          <h2>Our Signature Services</h2>
+          <p class="section-text">
+            A concise edit of the treatments clients return for most: soft
+            enhancement, skin renewal, and body contouring with visible,
+            refined results.
+          </p>
+        </section>
+
+        <section class="services-band section-sage">
+          <div class="service-grid">
+            <article class="service-card">
+              <img src="img/Cosmetic enhancement close-up shot.png" alt="Close-up beauty treatment for lips" />
+              <div class="service-card-body">
+                <h3>Lip Fillers</h3>
+                <a class="button button-small" href="#contact">Explore</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <img src="img/Relaxing spa facial treatment in progress.png"
+                alt="Relaxing facial treatment with natural products" />
+              <div class="service-card-body">
+                <h3>Facials</h3>
+                <a class="button button-small" href="#contact">Explore</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=900&q=80"
+                alt="Body contouring treatment in a wellness studio" />
+              <div class="service-card-body">
+                <h3>Velashape</h3>
+                <a class="button button-small" href="#contact">Explore</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="about section-light" id="about">
+          <div class="about-media">
+            <img src="img/Serene luxury spa treatment room.png" alt="Minimalist beauty treatment room interior" />
+          </div>
+
+          <div class="about-copy">
+            <p class="eyebrow">Studio atmosphere</p>
+            <h2>Where Elegance Meets Your Beauty</h2>
+            <p>
+              The Sculpted Beauty Room was designed as a serene retreat: soft
+              tones, clean lines, and thoughtful care from consultation to
+              result.
+            </p>
+            <p>
+              Every appointment is structured around comfort, discretion, and
+              precision so the experience feels restorative as well as
+              effective.
+            </p>
+          </div>
+        </section>
+
+        <section class="contact section-sage" id="contact">
+          <div class="contact-copy">
+            <p class="eyebrow">Start your visit</p>
+            <h2>Get in touch with us</h2>
+            <p class="section-text section-text-left">
+              Share the treatment you are considering and the studio will
+              respond with tailored guidance, availability, and next steps for
+              booking.
+            </p>
+
+            <form class="contact-form">
+              <label class="sr-only" for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Name" />
+
+              <label class="sr-only" for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="Email" />
+
+              <label class="sr-only" for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Message"></textarea>
+
+              <button class="button" type="submit">Send Message</button>
+            </form>
+          </div>
+
+          <div class="contact-media">
+            <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=900&q=80"
+              alt="Relaxing facial skincare treatment" />
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-social">
+          <p class="eyebrow">Follow the studio</p>
+          <h2>Let's get social!</h2>
+
+          <div class="social-grid" aria-label="Gallery preview">
+            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=500&q=80"
+              alt="Skincare product styling" />
+            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=500&q=80"
+              alt="Spa treatment ritual" />
+            <img src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=500&q=80"
+              alt="Beauty portrait" />
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=500&q=80"
+              alt="Makeup and beauty tools" />
+          </div>
+        </div>
+
+        <div class="footer-brand">
+          <a class="brand brand-footer" href="#home">
+            <span class="brand-title">The Sculpted</span>
+            <span class="brand-subtitle">Beauty Room</span>
+          </a>
+
+          <div class="footer-links">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#contact">Contact</a>
-            <a class="button button-dark" href="#contact">Book Consultation</a>
           </div>
-        </header>
-
-        <main>
-          <section class="hero section-sage">
-            <div class="hero-copy">
-              <p class="eyebrow">Welcome to Claire's world of beauty</p>
-              <h1>A sanctuary of the finest treatments</h1>
-              <p class="lede">
-                Step into a room of beauty where every treatment is tailored
-                with calm precision, modern technique, and a deeply personal
-                touch.
-              </p>
-              <a class="button" href="#services">Our Services</a>
-            </div>
-
-            <div class="hero-media">
-              <img
-                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
-                alt="Beauty studio owner smiling in a calm treatment room"
-              />
-            </div>
-          </section>
-
-          <section class="services-intro section-light" id="services">
-            <p class="eyebrow eyebrow-center">Signature menu</p>
-            <h2>Our Signature Services</h2>
-            <p class="section-text">
-              A concise edit of the treatments clients return for most: soft
-              enhancement, skin renewal, and body contouring with visible,
-              refined results.
-            </p>
-          </section>
-
-          <section class="services-band section-sage">
-            <div class="service-grid">
-              <article class="service-card">
-                <img
-                  src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=900&q=80"
-                  alt="Close-up beauty treatment for lips"
-                />
-                <div class="service-card-body">
-                  <h3>Lip Fillers</h3>
-                  <a class="button button-small" href="#contact">Explore</a>
-                </div>
-              </article>
-
-              <article class="service-card">
-                <img
-                  src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=900&q=80"
-                  alt="Relaxing facial treatment with natural products"
-                />
-                <div class="service-card-body">
-                  <h3>Facials</h3>
-                  <a class="button button-small" href="#contact">Explore</a>
-                </div>
-              </article>
-
-              <article class="service-card">
-                <img
-                  src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=900&q=80"
-                  alt="Body contouring treatment in a wellness studio"
-                />
-                <div class="service-card-body">
-                  <h3>Velashape</h3>
-                  <a class="button button-small" href="#contact">Explore</a>
-                </div>
-              </article>
-            </div>
-          </section>
-
-          <section class="about section-light" id="about">
-            <div class="about-media">
-              <img
-                src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=900&q=80"
-                alt="Minimalist beauty treatment room interior"
-              />
-            </div>
-
-            <div class="about-copy">
-              <p class="eyebrow">Studio atmosphere</p>
-              <h2>Where Elegance Meets Your Beauty</h2>
-              <p>
-                The Sculpted Beauty Room was designed as a serene retreat: soft
-                tones, clean lines, and thoughtful care from consultation to
-                result.
-              </p>
-              <p>
-                Every appointment is structured around comfort, discretion, and
-                precision so the experience feels restorative as well as
-                effective.
-              </p>
-            </div>
-          </section>
-
-          <section class="contact section-sage" id="contact">
-            <div class="contact-copy">
-              <p class="eyebrow">Start your visit</p>
-              <h2>Get in touch with us</h2>
-              <p class="section-text section-text-left">
-                Share the treatment you are considering and the studio will
-                respond with tailored guidance, availability, and next steps for
-                booking.
-              </p>
-
-              <form class="contact-form">
-                <label class="sr-only" for="name">Name</label>
-                <input id="name" name="name" type="text" placeholder="Name" />
-
-                <label class="sr-only" for="email">Email</label>
-                <input id="email" name="email" type="email" placeholder="Email" />
-
-                <label class="sr-only" for="message">Message</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="4"
-                  placeholder="Message"
-                ></textarea>
-
-                <button class="button" type="submit">Send Message</button>
-              </form>
-            </div>
-
-            <div class="contact-media">
-              <img
-                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=900&q=80"
-                alt="Relaxing facial skincare treatment"
-              />
-            </div>
-          </section>
-        </main>
-
-        <footer class="site-footer">
-          <div class="footer-social">
-            <p class="eyebrow">Follow the studio</p>
-            <h2>Let's get social!</h2>
-
-            <div class="social-grid" aria-label="Gallery preview">
-              <img
-                src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=500&q=80"
-                alt="Skincare product styling"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=500&q=80"
-                alt="Spa treatment ritual"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=500&q=80"
-                alt="Beauty portrait"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=500&q=80"
-                alt="Makeup and beauty tools"
-              />
-            </div>
-          </div>
-
-          <div class="footer-brand">
-            <a class="brand brand-footer" href="#home">
-              <span class="brand-title">The Sculpted</span>
-              <span class="brand-subtitle">Beauty Room</span>
-            </a>
-
-            <div class="footer-links">
-              <a href="#home">Home</a>
-              <a href="#about">About</a>
-              <a href="#services">Services</a>
-              <a href="#contact">Contact</a>
-            </div>
-          </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
